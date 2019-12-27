@@ -1,5 +1,4 @@
 import React from 'react';
-import Form from './contact.form';
 import illustration from '../images/undraw_absorbed.svg';
 
 export default () => (
@@ -15,7 +14,9 @@ export default () => (
                 <img src={illustration} alt ="Persona leyendo mientras camina" style={{height: "300px"}}></img>
             </div>
             <div>
-            <Form/>
+            <label htmlFor="contact-content" className="block text-gray-700 text-sm font-bold mb-2">
+                Aprendiendo día con día lo mejor, para ti.
+            </label>
         </div>
          </div>
         
