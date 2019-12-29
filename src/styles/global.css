@@ -1,6 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .btn{
     @apply bg-purple-500 text-white font-bold rounded border-purple-700 py-1 px-3 border-b-4
+}
+
+.shadow-box{
+box-shadow: 0px 0px 15px -6px rgb(158, 158, 158);
+}
+
+.tarjet-shadow{
+    box-shadow: 9px 9px 8px -7px rgb(196, 196, 196);
+}
+
+.repos-list{
+    columns: 3;
+}
+
+.repos-list li{
+    break-inside: avoid-column;
+}
+
+.effects a{
+    display: none;
+}
+
+.effects:hover a{
+    display: block;
 }
