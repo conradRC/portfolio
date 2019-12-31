@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 
-.shadow-box{
-box-shadow: 0px 0px 15px -6px rgb(158, 158, 158);
+.box-shadow{
+box-shadow: 0px 0px 5px -2px rgb(158, 158, 158);
 }
 
 .tarjet-shadow{
-    box-shadow: 9px 9px 8px -7px rgb(196, 196, 196);
+    box-shadow: 2px 2px 8px 0px rgb(196, 196, 196);
 }
 
 .effects a{
@@ -17,4 +17,8 @@ box-shadow: 0px 0px 15px -6px rgb(158, 158, 158);
 
 .effects:hover a{
     display: block;
+}
+
+.effects-button:hover a{
+    background-color: blueviolet;
 }
