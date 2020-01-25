@@ -20,11 +20,15 @@ export default () => {
                     Colaboración y contribución de código  
                 </p>
             </header>
+    
             <div className="flex flex-wrap min-h-full ">
-                { repos.map((repo) => {
+                { repos.map(
+                    (repo) => {
                     return <Repo repo= {repo} key = {repo.id}/>
                 })}
             </div>
+
+            
             <div className="flex justify-end text-center mt-6 mb-2 mr-5">
                     <a className="text-blue-700 tarjet-shadow font-bold pb-2 pt-1 w-32 rounded text-sm hover:bg-blue-600 hover:text-white" 
                         href="https://github.com/conradRC" 
