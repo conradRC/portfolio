@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Arapey|Frank+Ruhl+Libre|Gentium+Book+Basic|Gudea|Marcellus|Poiret+One|Roboto&display=swap');
 
-
+.font {
+    font-family: 'Roboto', sans-serif;
+}

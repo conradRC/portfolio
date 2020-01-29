@@ -6,7 +6,7 @@ export default () => (
         <div className= "container mx-auto p-4 max-w-4xl text-center">
                 <div className="flex-1 ">
                     <h1 className="font-bold text-white text-5xl">
-                            
+                            ¡Hola, Yo soy Conrado!
                     </h1>
                     <p className= "text-xl text-blue-100 my-1 mb-2 ">Desarrollo aplicaciones web</p>
                 </div>
