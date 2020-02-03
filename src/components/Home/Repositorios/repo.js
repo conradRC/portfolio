@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default (props) => {
     return (
         <div className="w-1/2 xl:w-1/4 lg:w-1/3 md:w-1/3 sm:w-1/2 all p-5">
@@ -23,7 +22,6 @@ export default (props) => {
             .tarjet-shadow{
                 box-shadow: 2px 2px 3px 0px rgb(226, 226, 246);
             }
-            
         `}
             </style>
         </div>

@@ -30,7 +30,7 @@ export default () => (
                         style={{ height: "38px", with:"38px" }}>
                     </img>
                 </a>
-                <a href={""}
+                <a href={"mailto:conrado27cym@gmail.com"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-full bg-blue-600 mx-2 hover:bg-blue-700">
@@ -40,9 +40,6 @@ export default () => (
                         style={{ height: "38px", with:"38px" }}>
                     </img>
                 </a>
-
-
-
             </div>
             <div className="text-center flex justify-center pb-8 pt-4">
                 <p className="">

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "My_porfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "My current personal",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^2.18.12",
+    "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-postcss": "^2.1.18",
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-json": "^2.2.22",
@@ -27,9 +28,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/conradRC/portfolio"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/conradRC/portfolio/issues"
   }
 }

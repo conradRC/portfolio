@@ -1,13 +1,13 @@
 import React from "react";
 import Repo from './repo';
-import icongit from '../../images/icons/icons-git.svg';
-import repos from '../../data/datas';
+import icongit from '../../../images/icons/icons-git.svg';
+import repos from '../../../data/datas';
 
 export default () => {
 
     return (
-        <div className="xl:px-40 lg:px-40 md:px-16 sm:px-16 p-6 my-16">
-            <div className="box-shadow rounded-lg my-8 pb-4 py-6">
+        <div className="xl:px-40 lg:px-40 md:px-16 sm:px-16 p-6 mb-16">
+            <div className="box-shadow rounded-lg my-4 pb-4 py-6">
                 <img src={icongit} alt="icono de git"
                     style={{ height: "64px", float: "right" }}>
                 </img>
@@ -25,7 +25,7 @@ export default () => {
                     })}
                 </div>
                 <div className="flex justify-end text-center mt-6 mb-2 mr-5">
-                    <a className="text-blue-700 tarjet-shadow font-bold mb-3 pb-2 pt-1 w-32 rounded text-sm hover:bg-blue-500 hover:text-white"
+                    <a className="text-blue-700 tarjet-shadow font-bold mb-2 pb-2 pt-1 w-32 rounded text-sm hover:bg-blue-500 hover:text-white"
                         href="https://github.com/conradRC"
                         tab="_blank" rel="noopener noreferrer">
                         Ver mas ({6})
