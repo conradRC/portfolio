@@ -2,7 +2,7 @@ import React from "react";
 
 export default (props) => {
     return (
-        <div className="w-1/2 xl:w-1/4 lg:w-1/3 md:w-1/3 sm:w-1/2 all p-5">
+        <div className="xl:w-1/4 lg:w-1/3 md:w-1/3 sm:w-1/2 w-full all p-5 text-sm sm:text-lg">
             <a href= {props.repo.html_url} 
                     target="_blank" 
                     rel="noopener noreferrer">

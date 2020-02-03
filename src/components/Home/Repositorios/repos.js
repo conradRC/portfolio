@@ -38,7 +38,7 @@ export default () => {
                     style={{ height: "64px", float: "right" }}>
                 </img>
                 <header className="text-center">
-                    <h2 className="text-3xl font-bold pt-4 ml-16">
+                    <h2 className="text-2xl font-bold pt-4 ml-16">
                         Mi trabajo en Open Source
                 </h2>
                     <p className="my-3">

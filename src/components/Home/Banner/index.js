@@ -5,8 +5,8 @@ import './css/index.css';
 export default () => (
     <div>
         
-        <div className="m-auto w-6/12 mt-10 mb-3">
-            <p className="font text-center p-3">
+        <div className="m-auto xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-2/3 w-full mt-10 mb-3">
+            <p className="font text-center px-8 py-3 text-sm sm:text-lg ">
                 Soy Conrado y vivo en Oaxaca-México y
                 actualmente soy estudiante en el ITO.
                 En mi tiempo libre me gusta aprender música, ver series y
