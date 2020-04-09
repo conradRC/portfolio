@@ -35,6 +35,7 @@ export default () => {
         <div className="xl:px-40 lg:px-40 md:px-16 sm:px-16 p-6 mb-16">
             <div className="box-shadow rounded-lg my-4 pb-4 py-6">
                 <img src={icongit} alt="icono de git"
+                    draggable="false"
                     style={{ height: "64px", float: "right" }}>
                 </img>
                 <header className="text-center">

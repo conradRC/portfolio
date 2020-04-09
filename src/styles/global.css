@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url('https://fonts.googleapis.com/css?family=Arapey|Frank+Ruhl+Libre|Gentium+Book+Basic|Gudea|Marcellus|Poiret+One|Roboto&display=swap');
-.font {
-    font-family: 'Roboto', sans-serif;
-}
+@font-face {
+    font-family: 'Arvo-auto';
+    font-display: auto;
+    src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  }
 
 
