@@ -21,7 +21,7 @@ module.exports = {
                     short_name:`startet`,
                     start_url:`/`,
                     background_color:`#FFFFFF`,
-                    theme_color:`#4299E1`,
+                    theme_color:`#FFFFFF`,
                     display:`minimal-ui`,
                     icon:`src/images/fav.jpg`,
                 },

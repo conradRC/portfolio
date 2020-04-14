@@ -17,7 +17,7 @@ export default () => {
         }
 
         async function fetchRepos() {
-            const response = await fetch("https://api.github.com/users/conradRC/repos");
+            const response = await fetch("https://api.github.com/users/conradrc27/repos");
             myRepos = await response.json();
             setReposCount(myRepos.length);
             myRepos = myRepos.slice(1, 9);
@@ -53,7 +53,7 @@ export default () => {
                 </div>
                 <div className="flex justify-end text-center mt-6 mb-2 mr-5">
                     <a className="text-blue-700 tarjet-shadow font-bold mb-2 pb-2 pt-1 w-32 rounded text-sm hover:bg-blue-500 hover:text-white"
-                        href="https://github.com/conradRC"
+                        href="https://github.com/conradrc27"
                         tab="_blank" rel="noopener noreferrer">
                         Ver mas ({reposCount})
                     </a>

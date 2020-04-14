@@ -10,7 +10,7 @@ export default () => (
         <div className="text-center text-white flex-wrap">
             <div className="flex justify-center bg-blue-500 pt-8 pb-3">
 
-                <a href={"https://github.com/conradRC"}
+                <a href={"https://github.com/conradrc27"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-full bg-blue-600 mx-2 hover:bg-blue-700">
