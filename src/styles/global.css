@@ -2,15 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @font-face {
     font-family: 'Arvo-auto';
-    font-display: auto;
+    font-display: swap;
     src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
 }
 
-@font-face {
-  font-family: 'Font Awesome';
-  font-display: auto;
-  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css) format('woff');
-}
+
+
+
