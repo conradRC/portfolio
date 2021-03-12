@@ -6,7 +6,7 @@ export default (props) => {
             <a href= {props.repo.html_url} 
                     target="_blank" 
                     rel="noopener noreferrer">
-                <div className="p-4 mx-2 flex-row text-center border-solid border-2 border-gray-300 rounded-lg hover:border-blue-600 tarjet-shadow">
+                <div className="p-4 mx-2 flex-row text-center border-solid border-2 border-gray-100 rounded-lg hover:border-blue-600 tarjet-shadow">
                     <h4 className="text-blue-700 font-bold truncate mb-2">
                         {props.repo.name}
                     </h4>
