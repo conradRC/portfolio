@@ -1,0 +1,22 @@
+{
+  "proyectsList": [
+    {
+      "proyect_id": "6c54a3a1-7155-43f2-ac0e-d373fdfc9bf2",
+      "title": "E-commerce | Plants",
+      "description": "A small e-commerce, in addition to the basic functionalities, I looked for a way to cache the data to reduce the number of requests to the server.Made with React.js consuming a REST API",
+      "url": "#"
+    },
+    {
+      "proyect_id": "ba9eaf37-6eb9-49e2-8048-7728242a6586",
+      "title": "Ecommerce | administrator",
+      "description": "A system to manage a nursery. I reduced requests to the server by caching data, created functional components, and also improved the interface design. Using the Laravel framework, Sanctum and its Eloquent ORM, MySQL as the database, the firebase storage for the images, React.js and TailwindCSS for the interface and deployed on Heroku.",
+      "url": "#"
+    },
+    {
+      "proyect_id": "6b368cbd-efcb-4a81-8ef7-5859d1a70467",
+      "title": "Maths kids",
+      "description": "I participated in the design of the application, both of the views and the logical part, adding the functionalities as well as the validations. The application was developed with React Native.",
+      "url": "#"
+    }
+  ]
+}
